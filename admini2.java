@@ -77,7 +77,8 @@ public class admini2 extends JFrame implements ActionListener {
 					8888);
 			DatagramSocket socket = new DatagramSocket();
 			socket.send(packet);
-
+            for(int i =0;i<(36-name.length());i++){
+				blank += " ";
 		}
 		catch (Exception e) {
 		}
