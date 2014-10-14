@@ -84,20 +84,20 @@ class Model extends Observable implements Runnable {
        int y = n.y;
 
        // 根据方向增减坐标值
-       switch (direction) {
-           case UP:
-               y--;
-               break;
-           case DOWN:
-               y++;
-               break;
-           case LEFT:
-               x--;
-               break;
-           case RIGHT:
-               x++;
-               break;
-       }
+ //      switch (direction) {
+   //        case UP:
+     //          y--;
+       //        break;
+         //  case DOWN:
+           //    y++;
+             //  break;
+   //        case LEFT:
+     //          x--;
+       //        break;
+         //  case RIGHT:
+           //    x++;
+             //  break;
+       //}
        //to avoid crash into walls
        if(x<0){
 //    	   y=Math.abs(Math.abs(y)-yMax);
