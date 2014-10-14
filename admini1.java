@@ -95,15 +95,15 @@ public class admini1 extends JFrame implements ActionListener {
 	}
 
 
-	public void actionPerformed(ActionEvent e) {
-		Component com = (Component) e.getSource();
-		if (com.equals(exitJButton)) {
-			System.exit(0);
-		} else {
-			sendData();
-			this.input.setText("");
-		}
-	}
+//	public void actionPerformed(ActionEvent e) {
+//		Component com = (Component) e.getSource();
+//		if (com.equals(exitJButton)) {
+//			System.exit(0);
+//		} else {
+//			sendData();
+//			this.input.setText("");
+//		}
+//	}
 
 	public static void main(String args[]) {
 		admini1 t1=new admini1();
