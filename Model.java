@@ -61,12 +61,12 @@ class Model extends Observable implements Runnable {
        // initial the snake
        int initArrayLength = xMax > 20 ? 10 : xMax / 2;
        nodeArray.clear();
-       for (int i = 0; i < initArrayLength; ++i) {
-           int x = xMax / 2 + i;
-           int y = yMax / 2;
-           nodeArray.addLast(new Node(x, y));
-           matrix[x][y] = true;
-       }
+//       for (int i = 0; i < initArrayLength; ++i) {
+//           int x = xMax / 2 + i;
+//           int y = yMax / 2;
+//           nodeArray.addLast(new Node(x, y));
+//           matrix[x][y] = true;
+//       }
 
        food = createFood();
        matrix[food.x][food.y] = true;
