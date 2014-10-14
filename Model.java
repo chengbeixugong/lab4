@@ -72,11 +72,11 @@ class Model extends Observable implements Runnable {
        matrix[food.x][food.y] = true;
    }
 
-   public void changeDirection(int newDirection) {
-       if (direction % 2 != newDirection % 2) {
-           direction = newDirection;
-       }
-   }
+//   public void changeDirection(int newDirection) {
+//       if (direction % 2 != newDirection % 2) {
+//           direction = newDirection;
+//       }
+//   }
 
    public boolean moveOn() {
        Node n = (Node) nodeArray.getFirst();
